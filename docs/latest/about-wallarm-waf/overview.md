@@ -1,4 +1,4 @@
-# How Wallarm WAF works
+# What is Wallarm WAF
 
 Wallarm is a DevOps-friendly Web Application Firewall (WAF) uniquely suited to protect your cloud applications and APIs.
 

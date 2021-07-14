@@ -11,12 +11,15 @@
 
 ### disable_acl
 
-Allows disabling analysis of requests origins. If disabled (`on`), the WAF node does not download [IP lists](../user-guides/ip-lists/overview.md) from the Wallarm Cloud and skips request source IPs analysis.
+Description | NGINX blocks | Default value | Detailed instructions
+--- | --- | --- | ---
+Allows disabling analysis of requests origins. If disabled (`on`), the WAF node does not download [IP lists](../user-guides/ip-lists/overview.md) from the Wallarm Cloud and skips request source IPs analysis. | http, server, location | `off` | -
 
-!!! info
-    This parameter can be set inside the http, server, and location blocks.
+### wallarm_block_page
 
-    Default value is `off`.
+Description | NGINX blocks | Default value | Detailed instructions
+--- | --- | --- | ---
+Lets you set up the response to the blocked request. | http, server, location | - | [Blocking page andd error code configuration](configuration-guides/configure-block-page-and-code.md)
 
 ### wallarm_api_conf
 
@@ -46,15 +49,6 @@ api:
   ca_verify: true
 ```
 
-
-### wallarm_block_page
-
-Lets you set up the response to the blocked request.
-
-[More details on the blocking page and error code configuration →](configuration-guides/configure-block-page-and-code.md)
-
-!!! info
-    This parameter can be set inside the http, server, and location blocks.
 
 ### wallarm_block_page_add_dynamic_path
 
