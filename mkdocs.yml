@@ -113,6 +113,7 @@ nav:
       - Deployment Options: installation/supported-deployment-options.md
       - Out-of-Band:
         - Overview: installation/oob/overview.md
+        - eBPF: installation/oob/ebpf.md
         - Mirroring by NGINX, Envoy and Similar:
           - Overview: installation/oob/web-server-mirroring/overview.md
           - Public Clouds:
