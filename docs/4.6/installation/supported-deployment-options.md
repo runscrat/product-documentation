@@ -19,6 +19,11 @@ Wallarm supports many deployment options enabling you to seamlessly integrate th
             <h3>AWS VPC Mirroring</h3>
             <p>Out-of-band deployment for traffic mirrored by AWS VPC</p>
         </div>
+        <a class="do-card" href="../../installation/oob/ebpf/deployment/">
+            <img src="../../images/platform-icons/ebpf.svg" />
+            <h3>eBPF</h3>
+            <p>Out-of-band deployment on Kubernetes using the eBPF technology</p>
+        </a>
     </div>
 
     <div class="do-nested" data-for="mirroring-by-web-servers">
