@@ -379,6 +379,7 @@ nav:
   - Security testing:
     - Wallarm FAST Overview: fast/README.md
     - FAST Onboarding: fast/onboarding/onboarding.md
+    - OpenAPI Security Testing: fast/openapi-security-testing.md
     - Quick start guide:
       - Deployment options: fast/qsg/deployment-options.md
       - FAST node deployment: fast/qsg/deployment.md

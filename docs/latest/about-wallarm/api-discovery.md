@@ -237,7 +237,7 @@ As you find shadow APIs with Wallarm, you can update your specifications to incl
 
 The OpenAPI security testing feature enables you to perform vulnerability testing on your API inventory during the CI/CD process when implementing changes to the functionality of released endpoints. By incorporating security testing into your regression testing phase, you can proactively identify and address potential security vulnerabilities before they reach the production environment, reducing the risk of exploitation by malicious actors.
 
-To initiate security testing, you will need to create a security policy. This policy defines the specific endpoints and vulnerability types you want to test within your API inventory. [Learn more](../fast/openapi-security-testing.md)
+[Learn how to run OpenAPI security testing](../fast/openapi-security-testing.md)
 
 ## Security of data uploaded to the Wallarm Cloud
 

@@ -216,6 +216,12 @@ The API Discovery module automatically uncovers shadow APIs by comparing the dis
 
 As you find shadow APIs with Wallarm, you can update your specifications to include missing endpoints and further perform monitoring and security activities towards your API inventory in its full view.
 
+## Security testing of API inventory on CI/CD
+
+The OpenAPI security testing feature enables you to perform vulnerability testing on your API inventory during the CI/CD process when implementing changes to the functionality of released endpoints. By incorporating security testing into your regression testing phase, you can proactively identify and address potential security vulnerabilities before they reach the production environment, reducing the risk of exploitation by malicious actors.
+
+To initiate security testing, you will need to create a security policy. This policy defines the specific endpoints and vulnerability types you want to test within your API inventory. [Learn more](../fast/openapi-security-testing.md)
+
 ## Security of data uploaded to the Wallarm Cloud
 
 API Discovery analyzes most of the traffic locally. The module sends to the Wallarm Cloud only the discovered endpoints, parameter names and various statistical data (time of arrival, their number, etc.) All data is transmitted via a secure channel: before uploading the statistics to the Wallarm Cloud, the API Discovery module hashes the values of request parameters using the [SHA-256](https://en.wikipedia.org/wiki/SHA-2) algorithm.
